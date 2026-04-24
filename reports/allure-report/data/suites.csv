@@ -1,0 +1,53 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        测试场景：设置offset=0查询（页码从1开始，0是非法值）
+        预期结果：接口应返回错误提示""分页页码不能小于1""
+        ","332","offset=0 边界值查询（页码不能小于1）","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：使用无效的Token查询线索列表
+        预期结果：接口应拒绝请求，返回认证失败相关错误
+        ","271","无效Token查询线索列表","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：验证返回的线索数据包含所有必要字段
+        预期结果：每条线索记录包含clueNo、channelName、status、createByName等核心字段
+        ","2120","验证线索列表数据字段完整性","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：不携带Token（未登录状态）查询线索列表
+        预期结果：接口应拒绝请求，返回未登录/认证失败错误
+        ","276","不携带Token查询线索列表","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：使用默认参数查询线索行程列表（offset=1, limit=10）
+        预期结果：返回成功，包含list列表和total总数
+        ","2173","默认参数查询线索行程列表","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：使用一个不存在的线索编号进行查询
+        预期结果：返回成功但列表为空，total为0
+        ","501","查询不存在的线索编号","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：设置offset=2查询第2页数据
+        预期结果：返回成功，且与第1页数据不同（如果总数据量足够）
+        ","2703","翻页查询（offset=2，第2页）","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：通过线索编号精确查询
+        预期结果：返回的结果中包含指定线索编号的记录
+        ","2542","按线索编号精确查询","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：设置limit=5查询线索列表
+        预期结果：返回的list长度不超过5，size=5
+        ","894","自定义每页数量查询（limit=5）","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：按创建人姓名筛选线索
+        预期结果：返回的所有线索的创建人都匹配筛选条件
+        ","2526","按创建人姓名筛选","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：按线索状态筛选（status=1表示跟进中）
+        预期结果：返回的所有线索状态都为1
+        ","968","按线索状态筛选（status=1 跟进中）","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：设置一个超大的offset值（远超实际数据页数）
+        预期结果：返回成功但列表为空（已超出数据范围）
+        ","475","超大offset翻页查询","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""
+"
+        测试场景：验证线索下的行程订单数据包含必要字段
+        预期结果：含有订单的行程记录应包含tripNo、tripName、tripStatus等字段
+        ","2173","验证行程订单数据字段完整性","testcases","2026-04-21","passed","2026-04-21","TestClueTripList","test_query_clue_trip_list","",""

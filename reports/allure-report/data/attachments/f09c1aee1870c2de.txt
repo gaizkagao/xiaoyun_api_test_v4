@@ -1,0 +1,8 @@
+[2026-04-21 16:03:27] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:27] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:27] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:29] [INFO] [状态码] 200
+[2026-04-21 16:03:29] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=CL4440716911, clueStatus=None
+[2026-04-21 16:03:29] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:29] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "CL4440716911", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:29] [INFO] [状态码] 200

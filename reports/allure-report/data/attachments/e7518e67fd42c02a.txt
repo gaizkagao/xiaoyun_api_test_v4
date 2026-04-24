@@ -1,0 +1,15 @@
+[32mINFO    [0m xiaoyun_api_test:conftest.py:32 ============================================================
+[32mINFO    [0m xiaoyun_api_test:conftest.py:33 【全局前置】开始执行登录，获取认证Token...
+[32mINFO    [0m xiaoyun_api_test:conftest.py:34 ============================================================
+[32mINFO    [0m xiaoyun_api_test:login_api.py:41 正在登录，账号: gaozheng_test
+[32mINFO    [0m xiaoyun_api_test:request_util.py:76 [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[32mINFO    [0m xiaoyun_api_test:request_util.py:78 [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[32mINFO    [0m xiaoyun_api_test:request_util.py:92 [状态码] 200
+[35mDEBUG   [0m xiaoyun_api_test:request_util.py:99 [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "agentName": "张新梅的测试商户", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6IuW8oOaWsOaiheeahOa1i-ivleWVhuaItyIsInVzZXJOYW1lIjoi6auY5pS_IiwiZXhwIjoxNzc3MzYzMzk3LCJ1c2VySWQiOiI0MjM4NjY3MTUyNyIsImlhdCI6MTc3Njc1ODU5NywiY2hhbm5lbElkIjoiMTIwMjQxNjk1MiJ9.JNofnLdB-mM6oU2VIil6skKra8j1HGZyBTHr6IBBMwHM0N7gQ-LSmxiuSshc2q9lmLu5qG3xf-FmMWgP58zMC89VAFPk-BVnmsFMBbMT7kiKlpCEZP0aRoCZlS65Ptt6N_7w0jtk...(truncated)
+[32mINFO    [0m xiaoyun_api_test:login_api.py:49 登录成功！userToken: 788e26d4154d4abbb384
+[32mINFO    [0m xiaoyun_api_test:conftest.py:47 【全局前置】登录成功，用户: 高政, Token: 788e26d4154d4abbb384
+[32mINFO    [0m xiaoyun_api_test:query_clue_trip_list_api.py:70 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[32mINFO    [0m xiaoyun_api_test:request_util.py:76 [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[32mINFO    [0m xiaoyun_api_test:request_util.py:78 [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[32mINFO    [0m xiaoyun_api_test:request_util.py:92 [状态码] 200
+[35mDEBUG   [0m xiaoyun_api_test:request_util.py:99 [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时40分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)

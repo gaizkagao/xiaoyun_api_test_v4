@@ -1,0 +1,5 @@
+[32mINFO    [0m xiaoyun_api_test:query_clue_trip_list_api.py:70 查询线索行程列表，limit=10, offset=1, clueNo=CL9999999999999, clueStatus=None
+[32mINFO    [0m xiaoyun_api_test:request_util.py:76 [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[32mINFO    [0m xiaoyun_api_test:request_util.py:78 [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "CL9999999999999", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[32mINFO    [0m xiaoyun_api_test:request_util.py:92 [状态码] 200
+[35mDEBUG   [0m xiaoyun_api_test:request_util.py:99 [响应体] {"data": {"list": [], "size": 0, "total": 0}, "status": 200, "success": true, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.144.17767586137871777"}

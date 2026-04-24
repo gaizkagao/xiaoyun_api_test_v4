@@ -1,0 +1,13 @@
+[2026-04-21 16:03:16] [INFO] ============================================================
+[2026-04-21 16:03:16] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 16:03:16] [INFO] ============================================================
+[2026-04-21 16:03:16] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 16:03:16] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 16:03:16] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 16:03:17] [INFO] [状态码] 200
+[2026-04-21 16:03:17] [INFO] 登录成功！userToken: 788e26d4154d4abbb384
+[2026-04-21 16:03:17] [INFO] 【全局前置】登录成功，用户: 高政, Token: 788e26d4154d4abbb384
+[2026-04-21 16:03:17] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:17] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:17] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:19] [INFO] [状态码] 200

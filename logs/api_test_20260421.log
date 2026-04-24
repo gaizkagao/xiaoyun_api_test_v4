@@ -1,0 +1,613 @@
+[2026-04-21 15:44:35] [INFO] ============================================================
+[2026-04-21 15:44:35] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 15:44:35] [INFO] ============================================================
+[2026-04-21 15:44:35] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:44:35] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:44:35] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": "hbc123456"}
+[2026-04-21 15:44:40] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:44:40] [INFO] 获取用户信息...
+[2026-04-21 15:44:40] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:44:45] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/channel/v1.0/getChannelUserByUserId (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:44:45] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:44:45] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:44:45] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": "hbc123456"}
+[2026-04-21 15:44:50] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:44:50] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:44:50] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:44:50] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": "wrong_password_123"}
+[2026-04-21 15:44:55] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:44:55] [INFO] 正在登录，账号: 999999999
+[2026-04-21 15:44:55] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:44:55] [INFO] [Body] {"userType": "d", "loginName": "999999999", "password": "any_password"}
+[2026-04-21 15:45:00] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:45:00] [INFO] 正在登录，账号: 
+[2026-04-21 15:45:00] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:45:00] [INFO] [Body] {"userType": "d", "loginName": "", "password": "hbc123456"}
+[2026-04-21 15:45:05] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:45:05] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:45:05] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:45:05] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": ""}
+[2026-04-21 15:45:10] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:48:03] [INFO] ============================================================
+[2026-04-21 15:48:03] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 15:48:03] [INFO] ============================================================
+[2026-04-21 15:48:03] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:48:03] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:48:03] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": "hbc123456"}
+[2026-04-21 15:48:03] [INFO] [状态码] 200
+[2026-04-21 15:48:03] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1032780354", "agentName": "测试-胡江", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6Iua1i-ivlS3og6HmsZ8iLCJ1c2VyTmFtZSI6ImFib2xvIiwiZXhwIjoxNzc3MzYyNDg0LCJ1c2VySWQiOiI0NDQ5MTUxNjkxOSIsImlhdCI6MTc3Njc1NzY4NCwiY2hhbm5lbElkIjoiMTAzMjc4MDM1NCJ9.g9YGIPOS2xCiPbMoI2FslG8bFY3EEJ7UhPobeWGcz_ViwSQ_9sRM7ZTo_CAi55omRxR2DVfLgZzDFoVxrVsb9at7YaMh7tMiroioW_1XWrC4QElZg2zzAB-vG2qXT6u-dKUdeQtpnR7G98HDdjHULTyyLXP...(truncated)
+[2026-04-21 15:48:03] [INFO] 登录成功！userToken: 062d30b1156042294a07
+[2026-04-21 15:48:03] [INFO] 【全局前置】登录成功，用户: abolo, Token: 062d30b1156042294a07
+[2026-04-21 15:48:03] [INFO] 获取通知公告列表...
+[2026-04-21 15:48:03] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/quote/v1.0/getHbcNotification/List
+[2026-04-21 15:48:03] [INFO] [Params] {"version": "1.0.0"}
+[2026-04-21 15:48:04] [INFO] [状态码] 200
+[2026-04-21 15:48:04] [DEBUG] [响应体] {"data": {"notificationDtoList": [{"groupName": "通知公告", "notificationList": [{"additionalData": "", "bubble": "new", "content": "", "createTime": "2025-08-09 16:35:10", "groupName": "通知公告", "icon": "", "id": "1955160106971648031", "link": "https://mp.weixin.qq.com/s/L9jV-9X7fVHMKe2gIASqZg", "sort": 10, "title": "小云系统全线上新", "updateTime": "2025-10-21 18:55:42", "validValue": 1, "version": "1.0.0"}, {"additionalData": "", "bubble": "new", "content": "", "createTime": "2025-07-30 15:47:36", "groupNa...(truncated)
+[2026-04-21 15:48:04] [INFO] 获取Banner列表，分组: 小云底部图片
+[2026-04-21 15:48:04] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/quote/p/v1.0/hbcConfigBanner/list
+[2026-04-21 15:48:04] [INFO] [Body] {"keywordGroup": "小云底部图片", "pageNo": 0, "pageSize": 100}
+[2026-04-21 15:48:04] [INFO] [状态码] 200
+[2026-04-21 15:48:04] [DEBUG] [响应体] {"data": {"list": [{"additionalData": "", "bannerOrder": 5, "bannerType": "1", "bannerUrl": "https://fr-static-new.oss-cn-hangzhou.aliyuncs.com/yundijiedibu2.png", "cityId": 0, "createBy": "admin", "createTime": "2025-08-25 21:25:33", "id": "1959970404906811393", "keywordGroup": "小云底部图片", "keywordGroupDescription": "小云底部图片", "sysOrgCode": "A01", "updateBy": "admin_cclx", "updateTime": "2026-02-12 18:21:55", "validValue": 1}], "pageNo": 0, "pageSize": 100, "total": 1, "totalPages": 1}, "status": ...(truncated)
+[2026-04-21 15:48:04] [INFO] 获取查价历史，类型: CAR
+[2026-04-21 15:48:04] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/businessTrip/c/v1.0/queryQuoteHistory
+[2026-04-21 15:48:04] [INFO] [Params] {"quoteType": "CAR"}
+[2026-04-21 15:48:04] [INFO] [状态码] 200
+[2026-04-21 15:48:04] [DEBUG] [响应体] {"data": [{"endDate": "2026-06-27", "quoteType": "CAR", "startDate": "2026-06-27", "startLocation": "仰光", "tripName": "仰光出发1日全天包车", "tripPlanRouteVo": {"channelId": "1032780354", "channelName": "测试-胡江", "channelType": 1, "classicTravel": 0, "collectionStatus": 0, "createBy": "44491516919", "createByName": "abolo", "createTime": "2026-04-03 10:41:27", "customizeType": 30, "dealNum": 12, "images": [], "playType": 0, "quoteList": [{"additionalSalePriceTotal": 0, "allSalePriceTotal": 10600, "capOfLu...(truncated)
+[2026-04-21 15:48:04] [INFO] 获取Banner列表，分组: 不存在的分组_test_xyz
+[2026-04-21 15:48:04] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/quote/p/v1.0/hbcConfigBanner/list
+[2026-04-21 15:48:04] [INFO] [Body] {"keywordGroup": "不存在的分组_test_xyz", "pageNo": 0, "pageSize": 100}
+[2026-04-21 15:48:05] [INFO] [状态码] 200
+[2026-04-21 15:48:05] [DEBUG] [响应体] {"data": {"list": [], "pageNo": 0, "pageSize": 100, "total": 0, "totalPages": 0}, "status": 200, "success": true, "traceId": "fc18936ea8074bdd900122fe4d074022.21792.17767576853136629"}
+[2026-04-21 15:48:05] [INFO] 查询各类型订单数量统计...
+[2026-04-21 15:48:05] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderCountForYdjV5
+[2026-04-21 15:48:05] [INFO] [状态码] 200
+[2026-04-21 15:48:05] [DEBUG] [响应体] {"data": [{"finishTravelCount": 0, "orderCategory": 50, "totalCount": 1, "waitChoseCount": 0, "waitPayCount": 0, "waitTravelCount": 0}, {"finishTravelCount": 0, "orderCategory": 120, "totalCount": 1, "waitChoseCount": 0, "waitPayCount": 0, "waitTravelCount": 0}, {"finishTravelCount": 0, "orderCategory": 10, "totalCount": 34, "waitChoseCount": 0, "waitPayCount": 0, "waitTravelCount": 0}], "status": 200, "success": true, "traceId": "fc18936ea8074bdd900122fe4d074022.133.17767576856180955"}
+[2026-04-21 15:48:05] [INFO] 查询订单状态数量，订单类型: 全部
+[2026-04-21 15:48:05] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderStatusNumForYdjAll
+[2026-04-21 15:48:05] [INFO] [Body] {"orderType": ""}
+[2026-04-21 15:48:05] [INFO] [状态码] 200
+[2026-04-21 15:48:05] [DEBUG] [响应体] {"data": [{"num": 34, "orderTravelStatus": -1, "orderTravelStatusName": "总数"}, {"num": 34, "orderTravelStatus": -10, "orderTravelStatusName": "行程取消"}], "status": 200, "success": true, "traceId": "fc18936ea8074bdd900122fe4d074022.144.17767576859361169"}
+[2026-04-21 15:48:05] [INFO] 查询订单列表，offset=0, limit=10
+[2026-04-21 15:48:05] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:48:05] [INFO] [Body] {"offset": 0, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:48:06] [INFO] [状态码] 200
+[2026-04-21 15:48:06] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-04 10:45:01", "carServiceStartDate": "2026-06-27 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-03 10:42:27", "creatorId": "44491516919", "creatorName": "abolo", "customerAreaCode": "86", "customerMobile": "13188888811", "customerName": ...(truncated)
+[2026-04-21 15:48:06] [INFO] 查询订单列表，offset=10, limit=10
+[2026-04-21 15:48:06] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:48:06] [INFO] [Body] {"offset": 10, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:48:07] [INFO] [状态码] 200
+[2026-04-21 15:48:07] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 22500, "amountActualReceive": 22500, "amountChannelSys": 22500, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 22500, "amountShouldReceive": 22500, "cancelTime": "2026-02-14 16:28:13", "carServiceStartDate": "2026-02-19 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-02-14 15:10:58", "creatorId": "44491516919", "creatorName": "皇包车第二帅", "customerAreaCode": "86", "customerMobile": "15542007547", "custom...(truncated)
+[2026-04-21 15:48:07] [INFO] 查询订单列表，offset=0, limit=10
+[2026-04-21 15:48:07] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:48:07] [INFO] [Body] {"offset": 0, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:48:07] [INFO] [状态码] 200
+[2026-04-21 15:48:07] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-04 10:45:01", "carServiceStartDate": "2026-06-27 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-03 10:42:27", "creatorId": "44491516919", "creatorName": "abolo", "customerAreaCode": "86", "customerMobile": "13188888811", "customerName": ...(truncated)
+[2026-04-21 15:48:07] [INFO] 查询订单列表，offset=0, limit=0
+[2026-04-21 15:48:07] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:48:07] [INFO] [Body] {"offset": 0, "limit": 0, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:48:08] [INFO] [状态码] 200
+[2026-04-21 15:48:08] [DEBUG] [响应体] {"data": {"list": [], "size": 0, "total": 34}, "status": 200, "success": true, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.144.17767576883981271"}
+[2026-04-21 15:48:08] [INFO] 获取用户信息...
+[2026-04-21 15:48:08] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:48:08] [INFO] [状态码] 200
+[2026-04-21 15:48:08] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1032780354", "areaCode": "86", "avatar": "https://fr-internal-new.oss-cn-hangzhou.aliyuncs.com/ydj/FUOc-zX-0A0", "canOpenMembership": 1, "createTime": "2026-02-13 22:51:20", "createUserId": "995356784843", "createUserName": "侯思睿", "id": 11110, "loginName": "131888", "membershipStatus": 1, "membershipStatusName": "有效", "mobile": "13188888811", "opUserId": "995356784843", "opUserName": "侯思睿", "realName": "abolo", "status": 1, "updateTime": "2026-03-23 10:40:...(truncated)
+[2026-04-21 15:48:08] [INFO] 查询账户余额...
+[2026-04-21 15:48:08] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/fund/balance/query/queryBalanceInfo
+[2026-04-21 15:48:08] [INFO] [状态码] 200
+[2026-04-21 15:48:08] [DEBUG] [响应体] {"data": {"rtCode": 200, "rtData": [{"accountStatus": 0, "accountId": "6600", "totalAmount": 0, "amount": 4990170, "accountBelonging": 2, "amountCreditLimit": 0, "accountName": "测试-胡江", "accountType": 1, "threePartyId": "1032780354", "frozenAmount": 0}, {"accountStatus": 0, "accountId": "14791", "totalAmount": 0, "amount": 0, "accountBelonging": 2, "amountCreditLimit": 0, "accountName": "测试-胡江", "accountType": 2, "threePartyId": "1032780354", "frozenAmount": 0}], "rtMessage": "查询成功"}, "status": ...(truncated)
+[2026-04-21 15:48:08] [INFO] 获取用户信息...
+[2026-04-21 15:48:08] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:48:09] [INFO] [状态码] 200
+[2026-04-21 15:48:09] [DEBUG] [响应体] {"traceId": "e7d8b8c642d24909a3b954574da82e60.2888147.17767576893339051", "success": false, "message": "您的帐号登录会话已过期", "status": 10012}
+[2026-04-21 15:48:09] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:48:09] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:48:09] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": "hbc123456"}
+[2026-04-21 15:48:09] [INFO] [状态码] 200
+[2026-04-21 15:48:09] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1032780354", "agentName": "测试-胡江", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6Iua1i-ivlS3og6HmsZ8iLCJ1c2VyTmFtZSI6ImFib2xvIiwiZXhwIjoxNzc3MzYyNDg5LCJ1c2VySWQiOiI0NDQ5MTUxNjkxOSIsImlhdCI6MTc3Njc1NzY4OSwiY2hhbm5lbElkIjoiMTAzMjc4MDM1NCJ9.fSyjuEJI7Q_721IKJPqHghNOExrQyhizbeEr1-BCunp8ryY242J97AVI58qbrFhxgTF4zQr-2o0DVmEAPQeGlHaeDxhGWL47bnkoGs4WRQ8yi5x_mHRxbbru2Ny0KUEF5wC4Avgm6VG0Pe3XTqDYgOPdKMZ...(truncated)
+[2026-04-21 15:48:09] [INFO] 登录成功！userToken: 645e12e42e6a43102d93
+[2026-04-21 15:48:09] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:48:09] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:48:09] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": "wrong_password_123"}
+[2026-04-21 15:48:09] [INFO] [状态码] 200
+[2026-04-21 15:48:09] [DEBUG] [响应体] {"message": "账号不存在或密码错误", "status": 10022, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.21890.17767576900266183"}
+[2026-04-21 15:48:09] [ERROR] 登录失败！响应: {
+	"message":"账号不存在或密码错误",
+	"status":10022,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.21890.17767576900266183"
+}
+[2026-04-21 15:48:09] [INFO] 正在登录，账号: 999999999
+[2026-04-21 15:48:09] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:48:09] [INFO] [Body] {"userType": "d", "loginName": "999999999", "password": "any_password"}
+[2026-04-21 15:48:10] [INFO] [状态码] 200
+[2026-04-21 15:48:10] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.21682.17767576903249193"}
+[2026-04-21 15:48:10] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.21682.17767576903249193"
+}
+[2026-04-21 15:48:10] [INFO] 正在登录，账号: 
+[2026-04-21 15:48:10] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:48:10] [INFO] [Body] {"userType": "d", "loginName": "", "password": "hbc123456"}
+[2026-04-21 15:48:10] [INFO] [状态码] 200
+[2026-04-21 15:48:10] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.21887.17767576906186207"}
+[2026-04-21 15:48:10] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.21887.17767576906186207"
+}
+[2026-04-21 15:48:10] [INFO] 正在登录，账号: 131888
+[2026-04-21 15:48:10] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:48:10] [INFO] [Body] {"userType": "d", "loginName": "131888", "password": ""}
+[2026-04-21 15:48:10] [INFO] [状态码] 200
+[2026-04-21 15:48:10] [DEBUG] [响应体] {"message": "passwordmust not be blank", "status": 400, "success": false, "traceId": "c94c794bb792440e88c63c5ba9bc03e2.23643.17767576909051361"}
+[2026-04-21 15:48:10] [ERROR] 登录失败！响应: {
+	"message":"passwordmust not be blank",
+	"status":400,
+	"success":false,
+	"traceId":"c94c794bb792440e88c63c5ba9bc03e2.23643.17767576909051361"
+}
+[2026-04-21 15:48:10] [INFO] ============================================================
+[2026-04-21 15:48:10] [INFO] 【全局后置】所有测试用例执行完毕
+[2026-04-21 15:48:10] [INFO] ============================================================
+[2026-04-21 15:49:30] [INFO] ============================================================
+[2026-04-21 15:49:30] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 15:49:30] [INFO] ============================================================
+[2026-04-21 15:49:30] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:49:30] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:49:30] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:49:35] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:49:35] [INFO] 获取用户信息...
+[2026-04-21 15:49:35] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:49:40] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/channel/v1.0/getChannelUserByUserId (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:49:40] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:49:40] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:49:40] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:49:45] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:49:45] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:49:45] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:49:45] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "wrong_password_123"}
+[2026-04-21 15:50:15] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Read timed out. (read timeout=30)
+[2026-04-21 15:50:15] [INFO] 正在登录，账号: 999999999
+[2026-04-21 15:50:15] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:50:15] [INFO] [Body] {"userType": "d", "loginName": "999999999", "password": "any_password"}
+[2026-04-21 15:50:16] [INFO] [状态码] 200
+[2026-04-21 15:50:16] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.144.17767578163291339"}
+[2026-04-21 15:50:16] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"e9f2b825636a4f4bb24caf2e07822f3b.144.17767578163291339"
+}
+[2026-04-21 15:50:16] [INFO] 正在登录，账号: 
+[2026-04-21 15:50:16] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:50:16] [INFO] [Body] {"userType": "d", "loginName": "", "password": "gz260203"}
+[2026-04-21 15:50:16] [INFO] [状态码] 200
+[2026-04-21 15:50:16] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.143.17767578166221459"}
+[2026-04-21 15:50:16] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"e9f2b825636a4f4bb24caf2e07822f3b.143.17767578166221459"
+}
+[2026-04-21 15:50:16] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:50:16] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:50:16] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": ""}
+[2026-04-21 15:50:16] [INFO] [状态码] 200
+[2026-04-21 15:50:16] [DEBUG] [响应体] {"message": "passwordmust not be blank", "status": 400, "success": false, "traceId": "dd12fa13de454a62b3a5895f1f5f3207.148.17767578169090541"}
+[2026-04-21 15:50:16] [ERROR] 登录失败！响应: {
+	"message":"passwordmust not be blank",
+	"status":400,
+	"success":false,
+	"traceId":"dd12fa13de454a62b3a5895f1f5f3207.148.17767578169090541"
+}
+[2026-04-21 15:51:55] [INFO] ============================================================
+[2026-04-21 15:51:55] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 15:51:55] [INFO] ============================================================
+[2026-04-21 15:51:55] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:51:55] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:51:55] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:52:00] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:52:00] [INFO] 获取用户信息...
+[2026-04-21 15:52:00] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:52:05] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/channel/v1.0/getChannelUserByUserId (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:52:05] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:52:05] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:52:05] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:52:10] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:52:10] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:52:10] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:52:10] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "wrong_password_123"}
+[2026-04-21 15:52:15] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:52:15] [INFO] 正在登录，账号: 999999999
+[2026-04-21 15:52:15] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:52:15] [INFO] [Body] {"userType": "d", "loginName": "999999999", "password": "any_password"}
+[2026-04-21 15:52:15] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1048d2770>: Failed to establish a new connection: [Errno 54] Connection reset by peer')))
+[2026-04-21 15:52:16] [INFO] 正在登录，账号: 
+[2026-04-21 15:52:16] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:52:16] [INFO] [Body] {"userType": "d", "loginName": "", "password": "gz260203"}
+[2026-04-21 15:52:16] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104a16710>: Failed to establish a new connection: [Errno 61] Connection refused')))
+[2026-04-21 15:52:16] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:52:16] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:52:16] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": ""}
+[2026-04-21 15:52:16] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104927640>: Failed to establish a new connection: [Errno 61] Connection refused')))
+[2026-04-21 15:52:56] [INFO] ============================================================
+[2026-04-21 15:52:56] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 15:52:56] [INFO] ============================================================
+[2026-04-21 15:52:56] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:52:56] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:52:56] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:53:23] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1052ac190>, 'Connection to api-gw.huangbaoche.com timed out. (connect timeout=30)'))
+[2026-04-21 15:53:23] [INFO] 获取用户信息...
+[2026-04-21 15:53:23] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:53:50] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/channel/v1.0/getChannelUserByUserId (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1055a97e0>, 'Connection to api-gw.huangbaoche.com timed out. (connect timeout=30)'))
+[2026-04-21 15:53:50] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:53:50] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:53:50] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:54:17] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x105446c80>, 'Connection to api-gw.huangbaoche.com timed out. (connect timeout=30)'))
+[2026-04-21 15:54:17] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:54:17] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:54:17] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "wrong_password_123"}
+[2026-04-21 15:54:22] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:54:22] [INFO] 正在登录，账号: 999999999
+[2026-04-21 15:54:22] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:54:22] [INFO] [Body] {"userType": "d", "loginName": "999999999", "password": "any_password"}
+[2026-04-21 15:54:27] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:54:27] [INFO] 正在登录，账号: 
+[2026-04-21 15:54:27] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:54:27] [INFO] [Body] {"userType": "d", "loginName": "", "password": "gz260203"}
+[2026-04-21 15:54:32] [ERROR] [请求异常] HTTPSConnectionPool(host='api-gw.huangbaoche.com', port=443): Max retries exceeded with url: /ydj-web/login/v1.0/passwordLogin (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+[2026-04-21 15:54:32] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:54:32] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:54:32] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": ""}
+[2026-04-21 15:54:34] [INFO] [状态码] 200
+[2026-04-21 15:54:34] [DEBUG] [响应体] {"message": "passwordmust not be blank", "status": 400, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.21896.17767580742136351"}
+[2026-04-21 15:54:34] [ERROR] 登录失败！响应: {
+	"message":"passwordmust not be blank",
+	"status":400,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.21896.17767580742136351"
+}
+[2026-04-21 15:55:26] [INFO] ============================================================
+[2026-04-21 15:55:26] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 15:55:26] [INFO] ============================================================
+[2026-04-21 15:55:26] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:55:26] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:55:26] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:55:26] [INFO] [状态码] 200
+[2026-04-21 15:55:26] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "agentName": "张新梅的测试商户", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6IuW8oOaWsOaiheeahOa1i-ivleWVhuaItyIsInVzZXJOYW1lIjoi6auY5pS_IiwiZXhwIjoxNzc3MzYyOTI2LCJ1c2VySWQiOiI0MjM4NjY3MTUyNyIsImlhdCI6MTc3Njc1ODEyNiwiY2hhbm5lbElkIjoiMTIwMjQxNjk1MiJ9.q2rfvQdFfq0sl3-1lpE1qMdrEk0Qo2wbWVXw1WaUY5bH-ICb4qpnJ1D_bi_eC3GQpIjQr5fPCAFa327kMlb02qvP2Ow3fuj7dIyXjb9STLUsZgOwAO-GBvZz_TwNSXBK9QtsWbXV...(truncated)
+[2026-04-21 15:55:26] [INFO] 登录成功！userToken: 7297164b3d444110c516
+[2026-04-21 15:55:26] [INFO] 【全局前置】登录成功，用户: 高政, Token: 7297164b3d444110c516
+[2026-04-21 15:55:26] [INFO] 获取通知公告列表...
+[2026-04-21 15:55:26] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/quote/v1.0/getHbcNotification/List
+[2026-04-21 15:55:26] [INFO] [Params] {"version": "1.0.0"}
+[2026-04-21 15:55:26] [INFO] [状态码] 200
+[2026-04-21 15:55:26] [DEBUG] [响应体] {"data": {"notificationDtoList": [{"groupName": "通知公告", "notificationList": [{"additionalData": "", "bubble": "new", "content": "", "createTime": "2025-08-09 16:35:10", "groupName": "通知公告", "icon": "", "id": "1955160106971648031", "link": "https://mp.weixin.qq.com/s/L9jV-9X7fVHMKe2gIASqZg", "sort": 10, "title": "小云系统全线上新", "updateTime": "2025-10-21 18:55:42", "validValue": 1, "version": "1.0.0"}, {"additionalData": "", "bubble": "new", "content": "", "createTime": "2025-07-30 15:47:36", "groupNa...(truncated)
+[2026-04-21 15:55:26] [INFO] 获取Banner列表，分组: 小云底部图片
+[2026-04-21 15:55:26] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/quote/p/v1.0/hbcConfigBanner/list
+[2026-04-21 15:55:26] [INFO] [Body] {"keywordGroup": "小云底部图片", "pageNo": 0, "pageSize": 100}
+[2026-04-21 15:55:27] [INFO] [状态码] 200
+[2026-04-21 15:55:27] [DEBUG] [响应体] {"data": {"list": [{"additionalData": "", "bannerOrder": 5, "bannerType": "1", "bannerUrl": "https://fr-static-new.oss-cn-hangzhou.aliyuncs.com/yundijiedibu2.png", "cityId": 0, "createBy": "admin", "createTime": "2025-08-25 21:25:33", "id": "1959970404906811393", "keywordGroup": "小云底部图片", "keywordGroupDescription": "小云底部图片", "sysOrgCode": "A01", "updateBy": "admin_cclx", "updateTime": "2026-02-12 18:21:55", "validValue": 1}], "pageNo": 0, "pageSize": 100, "total": 1, "totalPages": 1}, "status": ...(truncated)
+[2026-04-21 15:55:27] [INFO] 获取查价历史，类型: CAR
+[2026-04-21 15:55:27] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/businessTrip/c/v1.0/queryQuoteHistory
+[2026-04-21 15:55:27] [INFO] [Params] {"quoteType": "CAR"}
+[2026-04-21 15:55:27] [INFO] [状态码] 200
+[2026-04-21 15:55:27] [DEBUG] [响应体] {"data": [{"endDate": "2026-09-12", "quoteType": "CAR", "startDate": "2026-09-12", "startLocation": "仰光", "tripName": "仰光出发1日全天包车", "tripPlanRouteVo": {"channelId": "1202416952", "channelName": "张新梅的测试商户", "channelType": 1, "classicTravel": 0, "collectionStatus": 0, "createBy": "42386671527", "createByName": "高政", "createTime": "2026-04-21 14:03:31", "customizeType": 30, "dealNum": 60, "images": [], "playType": 0, "quoteList": [{"additionalSalePriceTotal": 0, "allSalePriceTotal": 10600, "capOfLu...(truncated)
+[2026-04-21 15:55:27] [INFO] 获取Banner列表，分组: 不存在的分组_test_xyz
+[2026-04-21 15:55:27] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/quote/p/v1.0/hbcConfigBanner/list
+[2026-04-21 15:55:27] [INFO] [Body] {"keywordGroup": "不存在的分组_test_xyz", "pageNo": 0, "pageSize": 100}
+[2026-04-21 15:55:27] [INFO] [状态码] 200
+[2026-04-21 15:55:27] [DEBUG] [响应体] {"data": {"list": [], "pageNo": 0, "pageSize": 100, "total": 0, "totalPages": 0}, "status": 200, "success": true, "traceId": "c94c794bb792440e88c63c5ba9bc03e2.23644.17767581278571555"}
+[2026-04-21 15:55:27] [INFO] 查询各类型订单数量统计...
+[2026-04-21 15:55:27] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderCountForYdjV5
+[2026-04-21 15:55:28] [INFO] [状态码] 200
+[2026-04-21 15:55:28] [DEBUG] [响应体] {"data": [{"finishTravelCount": 0, "orderCategory": 20, "totalCount": 1, "waitChoseCount": 0, "waitPayCount": 0, "waitTravelCount": 0}, {"finishTravelCount": 8, "orderCategory": 10, "totalCount": 300, "waitChoseCount": 0, "waitPayCount": 0, "waitTravelCount": 27}], "status": 200, "success": true, "traceId": "fc18936ea8074bdd900122fe4d074022.21654.17767581281560339"}
+[2026-04-21 15:55:28] [INFO] 查询订单状态数量，订单类型: 全部
+[2026-04-21 15:55:28] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderStatusNumForYdjAll
+[2026-04-21 15:55:28] [INFO] [Body] {"orderType": ""}
+[2026-04-21 15:55:28] [INFO] [状态码] 200
+[2026-04-21 15:55:28] [DEBUG] [响应体] {"data": [{"num": 288, "orderTravelStatus": -1, "orderTravelStatusName": "总数"}, {"num": 261, "orderTravelStatus": -10, "orderTravelStatusName": "行程取消"}, {"num": 4, "orderTravelStatus": 10, "orderTravelStatusName": "正在安排中"}, {"num": 5, "orderTravelStatus": 20, "orderTravelStatusName": "待出行"}, {"num": 10, "orderTravelStatus": 30, "orderTravelStatusName": "行程中"}, {"num": 8, "orderTravelStatus": 90, "orderTravelStatusName": "行程确认结束"}], "status": 200, "success": true, "traceId": "c94c794bb792440e88c6...(truncated)
+[2026-04-21 15:55:28] [INFO] 查询订单列表，offset=0, limit=10
+[2026-04-21 15:55:28] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:55:28] [INFO] [Body] {"offset": 0, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:55:28] [INFO] [状态码] 200
+[2026-04-21 15:55:28] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-21 14:07:59", "carServiceStartDate": "2026-09-12 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-21 14:04:24", "creatorId": "42386671527", "creatorName": "高政", "customerAreaCode": "86", "customerMobile": "18271983873", "customerName": "高政...(truncated)
+[2026-04-21 15:55:28] [INFO] 查询订单列表，offset=10, limit=10
+[2026-04-21 15:55:28] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:55:28] [INFO] [Body] {"offset": 10, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:55:29] [INFO] [状态码] 200
+[2026-04-21 15:55:29] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-16 19:08:32", "carServiceStartDate": "2026-08-20 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-16 18:54:01", "creatorId": "42386671527", "creatorName": "高政", "customerAreaCode": "86", "customerMobile": "18271983873", "customerName": "高政...(truncated)
+[2026-04-21 15:55:29] [INFO] 查询订单列表，offset=0, limit=10
+[2026-04-21 15:55:29] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:55:29] [INFO] [Body] {"offset": 0, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:55:30] [INFO] [状态码] 200
+[2026-04-21 15:55:30] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-21 14:07:59", "carServiceStartDate": "2026-09-12 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-21 14:04:24", "creatorId": "42386671527", "creatorName": "高政", "customerAreaCode": "86", "customerMobile": "18271983873", "customerName": "高政...(truncated)
+[2026-04-21 15:55:30] [INFO] 查询订单列表，offset=0, limit=0
+[2026-04-21 15:55:30] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:55:30] [INFO] [Body] {"offset": 0, "limit": 0, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:55:30] [INFO] [状态码] 200
+[2026-04-21 15:55:30] [DEBUG] [响应体] {"data": {"list": [], "size": 0, "total": 281}, "status": 200, "success": true, "traceId": "c94c794bb792440e88c63c5ba9bc03e2.132.17767581307172555"}
+[2026-04-21 15:55:30] [INFO] 获取用户信息...
+[2026-04-21 15:55:30] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:55:30] [INFO] [状态码] 200
+[2026-04-21 15:55:30] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "areaCode": "86", "canOpenMembership": 1, "createTime": "2026-02-11 22:16:56", "createUserId": "996387099647", "createUserName": "高政", "id": 11086, "loginName": "gaozheng_test", "membershipStatus": 1, "membershipStatusName": "有效", "mobile": "18271983873", "opUserId": "996387099647", "opUserName": "高政", "realName": "高政", "status": 1, "updateTime": "2026-02-11 22:16:56", "userId": "42386671527"}, "status": 200, "success": true, "traceId": "dd12f...(truncated)
+[2026-04-21 15:55:30] [INFO] 查询账户余额...
+[2026-04-21 15:55:30] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/fund/balance/query/queryBalanceInfo
+[2026-04-21 15:55:31] [INFO] [状态码] 200
+[2026-04-21 15:55:31] [DEBUG] [响应体] {"data": {"rtCode": 200, "rtData": [{"accountStatus": 0, "accountId": "17850", "totalAmount": 0, "amount": 6043190, "accountBelonging": 2, "amountCreditLimit": 0, "accountName": "张新梅的测试商户", "accountType": 1, "threePartyId": "1202416952", "frozenAmount": 0}, {"accountStatus": 0, "accountId": "17851", "totalAmount": 0, "amount": 0, "accountBelonging": 2, "amountCreditLimit": 0, "accountName": "张新梅的测试商户", "accountType": 2, "threePartyId": "1202416952", "frozenAmount": 0}], "rtMessage": "查询成功"}, "st...(truncated)
+[2026-04-21 15:55:31] [INFO] 获取用户信息...
+[2026-04-21 15:55:31] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:55:31] [INFO] [状态码] 200
+[2026-04-21 15:55:31] [DEBUG] [响应体] {"traceId": "25f0ab1e606940ee8f1d4e0665397351.2861220.17767581317069563", "success": false, "message": "您的帐号登录会话已过期", "status": 10012}
+[2026-04-21 15:55:31] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:55:31] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:55:31] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:55:31] [INFO] [状态码] 200
+[2026-04-21 15:55:31] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "agentName": "张新梅的测试商户", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6IuW8oOaWsOaiheeahOa1i-ivleWVhuaItyIsInVzZXJOYW1lIjoi6auY5pS_IiwiZXhwIjoxNzc3MzYyOTMyLCJ1c2VySWQiOiI0MjM4NjY3MTUyNyIsImlhdCI6MTc3Njc1ODEzMiwiY2hhbm5lbElkIjoiMTIwMjQxNjk1MiJ9.TenipsRr2oZDFcrStjkNfJaIkmyNRLrmeJScQVSRTXa6lyQsQQcs5E7T9UeXx2YOX4k4uWZv3fExi0bshPfqMANFkrP0XA87qLaZEHsfTXhYA5MFEq08PfVLpOaqt_hPhKi0sxUT...(truncated)
+[2026-04-21 15:55:31] [INFO] 登录成功！userToken: e5f2cbbb4feb40b44496
+[2026-04-21 15:55:31] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:55:31] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:55:31] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "wrong_password_123"}
+[2026-04-21 15:55:32] [INFO] [状态码] 200
+[2026-04-21 15:55:32] [DEBUG] [响应体] {"message": "账号不存在或密码错误", "status": 10022, "success": false, "traceId": "c94c794bb792440e88c63c5ba9bc03e2.23643.17767581323721541"}
+[2026-04-21 15:55:32] [ERROR] 登录失败！响应: {
+	"message":"账号不存在或密码错误",
+	"status":10022,
+	"success":false,
+	"traceId":"c94c794bb792440e88c63c5ba9bc03e2.23643.17767581323721541"
+}
+[2026-04-21 15:55:32] [INFO] 正在登录，账号: 999999999
+[2026-04-21 15:55:32] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:55:32] [INFO] [Body] {"userType": "d", "loginName": "999999999", "password": "any_password"}
+[2026-04-21 15:55:32] [INFO] [状态码] 200
+[2026-04-21 15:55:32] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.21890.17767581326736451"}
+[2026-04-21 15:55:32] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.21890.17767581326736451"
+}
+[2026-04-21 15:55:32] [INFO] 正在登录，账号: 
+[2026-04-21 15:55:32] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:55:32] [INFO] [Body] {"userType": "d", "loginName": "", "password": "gz260203"}
+[2026-04-21 15:55:32] [INFO] [状态码] 200
+[2026-04-21 15:55:32] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.21720.17767581329599111"}
+[2026-04-21 15:55:32] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.21720.17767581329599111"
+}
+[2026-04-21 15:55:32] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:55:32] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:55:32] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": ""}
+[2026-04-21 15:55:33] [INFO] [状态码] 200
+[2026-04-21 15:55:33] [DEBUG] [响应体] {"message": "passwordmust not be blank", "status": 400, "success": false, "traceId": "c94c794bb792440e88c63c5ba9bc03e2.160.17767581332482417"}
+[2026-04-21 15:55:33] [ERROR] 登录失败！响应: {
+	"message":"passwordmust not be blank",
+	"status":400,
+	"success":false,
+	"traceId":"c94c794bb792440e88c63c5ba9bc03e2.160.17767581332482417"
+}
+[2026-04-21 15:55:33] [INFO] ============================================================
+[2026-04-21 15:55:33] [INFO] 【全局后置】所有测试用例执行完毕
+[2026-04-21 15:55:33] [INFO] ============================================================
+[2026-04-21 15:56:34] [INFO] ============================================================
+[2026-04-21 15:56:34] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 15:56:34] [INFO] ============================================================
+[2026-04-21 15:56:34] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:56:34] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:56:34] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:56:34] [INFO] [状态码] 200
+[2026-04-21 15:56:34] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "agentName": "张新梅的测试商户", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6IuW8oOaWsOaiheeahOa1i-ivleWVhuaItyIsInVzZXJOYW1lIjoi6auY5pS_IiwiZXhwIjoxNzc3MzYyOTk0LCJ1c2VySWQiOiI0MjM4NjY3MTUyNyIsImlhdCI6MTc3Njc1ODE5NCwiY2hhbm5lbElkIjoiMTIwMjQxNjk1MiJ9.a620S_yYWB0cEqRf_8q-ZgMoZ2YVSkI7y4mzYq3PTTj56SiA-Ea34XCRNNYHOStJBbpasfYwmtBDm_6nLorWM2IKoiI000nsedSGcWmExxnzP2_NZKx102TuKoGsqJH7GxvedP8g...(truncated)
+[2026-04-21 15:56:34] [INFO] 登录成功！userToken: dfda44b2eb01488daa44
+[2026-04-21 15:56:34] [INFO] 【全局前置】登录成功，用户: 高政, Token: dfda44b2eb01488daa44
+[2026-04-21 15:56:34] [INFO] 获取通知公告列表...
+[2026-04-21 15:56:34] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/quote/v1.0/getHbcNotification/List
+[2026-04-21 15:56:34] [INFO] [Params] {"version": "1.0.0"}
+[2026-04-21 15:56:35] [INFO] [状态码] 200
+[2026-04-21 15:56:35] [DEBUG] [响应体] {"data": {"notificationDtoList": [{"groupName": "通知公告", "notificationList": [{"additionalData": "", "bubble": "new", "content": "", "createTime": "2025-08-09 16:35:10", "groupName": "通知公告", "icon": "", "id": "1955160106971648031", "link": "https://mp.weixin.qq.com/s/L9jV-9X7fVHMKe2gIASqZg", "sort": 10, "title": "小云系统全线上新", "updateTime": "2025-10-21 18:55:42", "validValue": 1, "version": "1.0.0"}, {"additionalData": "", "bubble": "new", "content": "", "createTime": "2025-07-30 15:47:36", "groupNa...(truncated)
+[2026-04-21 15:56:35] [INFO] 获取Banner列表，分组: 小云底部图片
+[2026-04-21 15:56:35] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/quote/p/v1.0/hbcConfigBanner/list
+[2026-04-21 15:56:35] [INFO] [Body] {"keywordGroup": "小云底部图片", "pageNo": 0, "pageSize": 100}
+[2026-04-21 15:56:35] [INFO] [状态码] 200
+[2026-04-21 15:56:35] [DEBUG] [响应体] {"data": {"list": [{"additionalData": "", "bannerOrder": 5, "bannerType": "1", "bannerUrl": "https://fr-static-new.oss-cn-hangzhou.aliyuncs.com/yundijiedibu2.png", "cityId": 0, "createBy": "admin", "createTime": "2025-08-25 21:25:33", "id": "1959970404906811393", "keywordGroup": "小云底部图片", "keywordGroupDescription": "小云底部图片", "sysOrgCode": "A01", "updateBy": "admin_cclx", "updateTime": "2026-02-12 18:21:55", "validValue": 1}], "pageNo": 0, "pageSize": 100, "total": 1, "totalPages": 1}, "status": ...(truncated)
+[2026-04-21 15:56:35] [INFO] 获取查价历史，类型: CAR
+[2026-04-21 15:56:35] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/businessTrip/c/v1.0/queryQuoteHistory
+[2026-04-21 15:56:35] [INFO] [Params] {"quoteType": "CAR"}
+[2026-04-21 15:56:35] [INFO] [状态码] 200
+[2026-04-21 15:56:35] [DEBUG] [响应体] {"data": [{"endDate": "2026-09-12", "quoteType": "CAR", "startDate": "2026-09-12", "startLocation": "仰光", "tripName": "仰光出发1日全天包车", "tripPlanRouteVo": {"channelId": "1202416952", "channelName": "张新梅的测试商户", "channelType": 1, "classicTravel": 0, "collectionStatus": 0, "createBy": "42386671527", "createByName": "高政", "createTime": "2026-04-21 14:03:31", "customizeType": 30, "dealNum": 60, "images": [], "playType": 0, "quoteList": [{"additionalSalePriceTotal": 0, "allSalePriceTotal": 10600, "capOfLu...(truncated)
+[2026-04-21 15:56:35] [INFO] 获取Banner列表，分组: 不存在的分组_test_xyz
+[2026-04-21 15:56:35] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/quote/p/v1.0/hbcConfigBanner/list
+[2026-04-21 15:56:35] [INFO] [Body] {"keywordGroup": "不存在的分组_test_xyz", "pageNo": 0, "pageSize": 100}
+[2026-04-21 15:56:35] [INFO] [状态码] 200
+[2026-04-21 15:56:35] [DEBUG] [响应体] {"data": {"list": [], "pageNo": 0, "pageSize": 100, "total": 0, "totalPages": 0}, "status": 200, "success": true, "traceId": "fc18936ea8074bdd900122fe4d074022.21897.17767581961346409"}
+[2026-04-21 15:56:35] [INFO] 查询各类型订单数量统计...
+[2026-04-21 15:56:35] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderCountForYdjV5
+[2026-04-21 15:56:36] [INFO] [状态码] 200
+[2026-04-21 15:56:36] [DEBUG] [响应体] {"data": [{"finishTravelCount": 0, "orderCategory": 20, "totalCount": 1, "waitChoseCount": 0, "waitPayCount": 0, "waitTravelCount": 0}, {"finishTravelCount": 8, "orderCategory": 10, "totalCount": 300, "waitChoseCount": 0, "waitPayCount": 0, "waitTravelCount": 27}], "status": 200, "success": true, "traceId": "fc18936ea8074bdd900122fe4d074022.21654.17767581964330373"}
+[2026-04-21 15:56:36] [INFO] 查询订单状态数量，订单类型: 全部
+[2026-04-21 15:56:36] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderStatusNumForYdjAll
+[2026-04-21 15:56:36] [INFO] [Body] {"orderType": ""}
+[2026-04-21 15:56:36] [INFO] [状态码] 200
+[2026-04-21 15:56:36] [DEBUG] [响应体] {"data": [{"num": 288, "orderTravelStatus": -1, "orderTravelStatusName": "总数"}, {"num": 261, "orderTravelStatus": -10, "orderTravelStatusName": "行程取消"}, {"num": 4, "orderTravelStatus": 10, "orderTravelStatusName": "正在安排中"}, {"num": 5, "orderTravelStatus": 20, "orderTravelStatusName": "待出行"}, {"num": 10, "orderTravelStatus": 30, "orderTravelStatusName": "行程中"}, {"num": 8, "orderTravelStatus": 90, "orderTravelStatusName": "行程确认结束"}], "status": 200, "success": true, "traceId": "e9f2b825636a4f4bb24c...(truncated)
+[2026-04-21 15:56:36] [INFO] 查询订单列表，offset=0, limit=10
+[2026-04-21 15:56:36] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:56:36] [INFO] [Body] {"offset": 0, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:56:37] [INFO] [状态码] 200
+[2026-04-21 15:56:37] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-21 14:07:59", "carServiceStartDate": "2026-09-12 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-21 14:04:24", "creatorId": "42386671527", "creatorName": "高政", "customerAreaCode": "86", "customerMobile": "18271983873", "customerName": "高政...(truncated)
+[2026-04-21 15:56:37] [INFO] 查询订单列表，offset=10, limit=10
+[2026-04-21 15:56:37] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:56:37] [INFO] [Body] {"offset": 10, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:56:37] [INFO] [状态码] 200
+[2026-04-21 15:56:37] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-16 19:08:32", "carServiceStartDate": "2026-08-20 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-16 18:54:01", "creatorId": "42386671527", "creatorName": "高政", "customerAreaCode": "86", "customerMobile": "18271983873", "customerName": "高政...(truncated)
+[2026-04-21 15:56:37] [INFO] 查询订单列表，offset=0, limit=10
+[2026-04-21 15:56:37] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:56:37] [INFO] [Body] {"offset": 0, "limit": 10, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:56:38] [INFO] [状态码] 200
+[2026-04-21 15:56:38] [DEBUG] [响应体] {"data": {"list": [{"amountActualPay": 0, "amountActualReceive": 0, "amountChannelSys": 10600, "amountCouponSelf": 0, "amountCouponTotal": 0, "amountShouldPay": 10600, "amountShouldReceive": 10600, "cancelTime": "2026-04-21 14:07:59", "carServiceStartDate": "2026-09-12 00:00:00", "countryCar": 2, "countryId": 82, "countryName": "缅甸", "createTime": "2026-04-21 14:04:24", "creatorId": "42386671527", "creatorName": "高政", "customerAreaCode": "86", "customerMobile": "18271983873", "customerName": "高政...(truncated)
+[2026-04-21 15:56:38] [INFO] 查询订单列表，offset=0, limit=0
+[2026-04-21 15:56:38] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/orderTravel/ydj/v5.0/getTravelOrderListForYdjAll
+[2026-04-21 15:56:38] [INFO] [Body] {"offset": 0, "limit": 0, "orderType": "", "orderTravelStatus": "", "customerName": "", "customerMobile": "", "orderTravelNo": "", "travelNo": "", "travelGroupNumber": "", "createTimeStart": "", "createTimeEnd": ""}
+[2026-04-21 15:56:38] [INFO] [状态码] 200
+[2026-04-21 15:56:38] [DEBUG] [响应体] {"data": {"list": [], "size": 0, "total": 281}, "status": 200, "success": true, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.23365.17767581989848939"}
+[2026-04-21 15:56:38] [INFO] 获取用户信息...
+[2026-04-21 15:56:38] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:56:39] [INFO] [状态码] 200
+[2026-04-21 15:56:39] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "areaCode": "86", "canOpenMembership": 1, "createTime": "2026-02-11 22:16:56", "createUserId": "996387099647", "createUserName": "高政", "id": 11086, "loginName": "gaozheng_test", "membershipStatus": 1, "membershipStatusName": "有效", "mobile": "18271983873", "opUserId": "996387099647", "opUserName": "高政", "realName": "高政", "status": 1, "updateTime": "2026-02-11 22:16:56", "userId": "42386671527"}, "status": 200, "success": true, "traceId": "dd12f...(truncated)
+[2026-04-21 15:56:39] [INFO] 查询账户余额...
+[2026-04-21 15:56:39] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/fund/balance/query/queryBalanceInfo
+[2026-04-21 15:56:39] [INFO] [状态码] 200
+[2026-04-21 15:56:39] [DEBUG] [响应体] {"data": {"rtCode": 200, "rtData": [{"accountStatus": 0, "accountId": "17850", "totalAmount": 0, "amount": 6043190, "accountBelonging": 2, "amountCreditLimit": 0, "accountName": "张新梅的测试商户", "accountType": 1, "threePartyId": "1202416952", "frozenAmount": 0}, {"accountStatus": 0, "accountId": "17851", "totalAmount": 0, "amount": 0, "accountBelonging": 2, "amountCreditLimit": 0, "accountName": "张新梅的测试商户", "accountType": 2, "threePartyId": "1202416952", "frozenAmount": 0}], "rtMessage": "查询成功"}, "st...(truncated)
+[2026-04-21 15:56:39] [INFO] 获取用户信息...
+[2026-04-21 15:56:39] [INFO] [GET] https://api-gw.huangbaoche.com/ydj-web/channel/v1.0/getChannelUserByUserId
+[2026-04-21 15:56:39] [INFO] [状态码] 200
+[2026-04-21 15:56:39] [DEBUG] [响应体] {"traceId": "25f0ab1e606940ee8f1d4e0665397351.2871595.17767581999447031", "success": false, "message": "您的帐号登录会话已过期", "status": 10012}
+[2026-04-21 15:56:39] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:56:39] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:56:39] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 15:56:40] [INFO] [状态码] 200
+[2026-04-21 15:56:40] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "agentName": "张新梅的测试商户", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6IuW8oOaWsOaiheeahOa1i-ivleWVhuaItyIsInVzZXJOYW1lIjoi6auY5pS_IiwiZXhwIjoxNzc3MzYzMDAwLCJ1c2VySWQiOiI0MjM4NjY3MTUyNyIsImlhdCI6MTc3Njc1ODIwMCwiY2hhbm5lbElkIjoiMTIwMjQxNjk1MiJ9.qC2bgOy90A7wGjB-pTWPW7Epk0e9f5g_loCqYanAdKgF6SeS0xheBToWfOBkB21TZmShOfDc1C66sbdyNwgLApSElRpHr7vYQ8lP49Xvxg5RVxBjzUY1xwPEB47DeTwDoEuIQjpT...(truncated)
+[2026-04-21 15:56:40] [INFO] 登录成功！userToken: afdd3f228f674ccae188
+[2026-04-21 15:56:40] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:56:40] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:56:40] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "wrong_password_123"}
+[2026-04-21 15:56:40] [INFO] [状态码] 200
+[2026-04-21 15:56:40] [DEBUG] [响应体] {"message": "账号不存在或密码错误", "status": 10022, "success": false, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.158.17767582006321593"}
+[2026-04-21 15:56:40] [ERROR] 登录失败！响应: {
+	"message":"账号不存在或密码错误",
+	"status":10022,
+	"success":false,
+	"traceId":"e9f2b825636a4f4bb24caf2e07822f3b.158.17767582006321593"
+}
+[2026-04-21 15:56:40] [INFO] 正在登录，账号: 999999999
+[2026-04-21 15:56:40] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:56:40] [INFO] [Body] {"userType": "d", "loginName": "999999999", "password": "any_password"}
+[2026-04-21 15:56:40] [INFO] [状态码] 200
+[2026-04-21 15:56:40] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.133.17767582009411257"}
+[2026-04-21 15:56:40] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.133.17767582009411257"
+}
+[2026-04-21 15:56:40] [INFO] 正在登录，账号: 
+[2026-04-21 15:56:40] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:56:40] [INFO] [Body] {"userType": "d", "loginName": "", "password": "gz260203"}
+[2026-04-21 15:56:41] [INFO] [状态码] 200
+[2026-04-21 15:56:41] [DEBUG] [响应体] {"message": "用户不存在", "status": 5500008, "success": false, "traceId": "c94c794bb792440e88c63c5ba9bc03e2.23643.17767582012351609"}
+[2026-04-21 15:56:41] [ERROR] 登录失败！响应: {
+	"message":"用户不存在",
+	"status":5500008,
+	"success":false,
+	"traceId":"c94c794bb792440e88c63c5ba9bc03e2.23643.17767582012351609"
+}
+[2026-04-21 15:56:41] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 15:56:41] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 15:56:41] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": ""}
+[2026-04-21 15:56:41] [INFO] [状态码] 200
+[2026-04-21 15:56:41] [DEBUG] [响应体] {"message": "passwordmust not be blank", "status": 400, "success": false, "traceId": "fc18936ea8074bdd900122fe4d074022.21896.17767582015246429"}
+[2026-04-21 15:56:41] [ERROR] 登录失败！响应: {
+	"message":"passwordmust not be blank",
+	"status":400,
+	"success":false,
+	"traceId":"fc18936ea8074bdd900122fe4d074022.21896.17767582015246429"
+}
+[2026-04-21 15:56:41] [INFO] ============================================================
+[2026-04-21 15:56:41] [INFO] 【全局后置】所有测试用例执行完毕
+[2026-04-21 15:56:41] [INFO] ============================================================
+[2026-04-21 16:03:16] [INFO] ============================================================
+[2026-04-21 16:03:16] [INFO] 【全局前置】开始执行登录，获取认证Token...
+[2026-04-21 16:03:16] [INFO] ============================================================
+[2026-04-21 16:03:16] [INFO] 正在登录，账号: gaozheng_test
+[2026-04-21 16:03:16] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/login/v1.0/passwordLogin
+[2026-04-21 16:03:16] [INFO] [Body] {"userType": "d", "loginName": "gaozheng_test", "password": "gz260203"}
+[2026-04-21 16:03:17] [INFO] [状态码] 200
+[2026-04-21 16:03:17] [DEBUG] [响应体] {"data": {"accountType": 1, "agentId": "1202416952", "agentName": "张新梅的测试商户", "auditStatus": 4, "bingTripToken": "eyJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpc3N1ZXIiLCJjaGFubmVsTmFtZSI6IuW8oOaWsOaiheeahOa1i-ivleWVhuaItyIsInVzZXJOYW1lIjoi6auY5pS_IiwiZXhwIjoxNzc3MzYzMzk3LCJ1c2VySWQiOiI0MjM4NjY3MTUyNyIsImlhdCI6MTc3Njc1ODU5NywiY2hhbm5lbElkIjoiMTIwMjQxNjk1MiJ9.JNofnLdB-mM6oU2VIil6skKra8j1HGZyBTHr6IBBMwHM0N7gQ-LSmxiuSshc2q9lmLu5qG3xf-FmMWgP58zMC89VAFPk-BVnmsFMBbMT7kiKlpCEZP0aRoCZlS65Ptt6N_7w0jtk...(truncated)
+[2026-04-21 16:03:17] [INFO] 登录成功！userToken: 788e26d4154d4abbb384
+[2026-04-21 16:03:17] [INFO] 【全局前置】登录成功，用户: 高政, Token: 788e26d4154d4abbb384
+[2026-04-21 16:03:17] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:17] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:17] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:19] [INFO] [状态码] 200
+[2026-04-21 16:03:19] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时40分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:19] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:19] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:19] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:21] [INFO] [状态码] 200
+[2026-04-21 16:03:21] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时40分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:21] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:21] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:21] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:23] [INFO] [状态码] 200
+[2026-04-21 16:03:23] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时40分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:23] [INFO] 查询线索行程列表，limit=5, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:23] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:23] [INFO] [Body] {"limit": 5, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:24] [INFO] [状态码] 200
+[2026-04-21 16:03:24] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时41分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:24] [INFO] 查询线索行程列表，limit=5, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:24] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:24] [INFO] [Body] {"limit": 5, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:25] [INFO] [状态码] 200
+[2026-04-21 16:03:25] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时41分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:25] [INFO] 查询线索行程列表，limit=5, offset=2, clueNo=无, clueStatus=None
+[2026-04-21 16:03:25] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:25] [INFO] [Body] {"limit": 5, "offset": 2, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:27] [INFO] [状态码] 200
+[2026-04-21 16:03:27] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clientStatus": "新客", "clueCreateTime": "2026-04-10 10:23:49", "clueLevelName": "无线索等级", "clueName": "twet", "clueNo": "CL2344071224", "clueStatusInfo": "流程已耗时11天5小时39分", "contactPerson": "+86-15672827363", "createBy": "42380371527", "createByName": "侯思睿", "createTime": "2026-04-10 10:23:49", "email": "", "followerName": "侯思睿", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "placeRspList": [{"placeCategory": 0...(truncated)
+[2026-04-21 16:03:27] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:27] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:27] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:29] [INFO] [状态码] 200
+[2026-04-21 16:03:29] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时41分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:29] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=CL4440716911, clueStatus=None
+[2026-04-21 16:03:29] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:29] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "CL4440716911", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:29] [INFO] [状态码] 200
+[2026-04-21 16:03:29] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时41分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:29] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:29] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:29] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:31] [INFO] [状态码] 200
+[2026-04-21 16:03:31] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时41分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:31] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:31] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:31] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "张祺龙", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:32] [INFO] [状态码] 200
+[2026-04-21 16:03:32] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时41分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:32] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=1
+[2026-04-21 16:03:32] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:32] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": 1, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:33] [INFO] [状态码] 200
+[2026-04-21 16:03:33] [DEBUG] [响应体] {"data": {"list": [{"channelId": "1202416952", "channelName": "张新梅的测试商户", "clueCreateTime": "2026-04-18 00:22:23", "clueLevelName": "无线索等级", "clueName": "", "clueNo": "CL4440716911", "clueStatusInfo": "流程已耗时3天15小时41分", "contactPerson": "+86", "createBy": "42386671526", "createByName": "张祺龙", "createTime": "2026-04-18 00:22:23", "email": "", "followerName": "张祺龙", "groupId": "", "groupList": [], "merchantName": "张新梅的测试商户", "status": "1", "travellerRspList": [{"travellerType": 1}, {"travellerType"...(truncated)
+[2026-04-21 16:03:33] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=CL9999999999999, clueStatus=None
+[2026-04-21 16:03:33] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:33] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "CL9999999999999", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:33] [INFO] [状态码] 200
+[2026-04-21 16:03:33] [DEBUG] [响应体] {"data": {"list": [], "size": 0, "total": 0}, "status": 200, "success": true, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.144.17767586137871777"}
+[2026-04-21 16:03:33] [INFO] 查询线索行程列表，limit=10, offset=0, clueNo=无, clueStatus=None
+[2026-04-21 16:03:33] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:33] [INFO] [Body] {"limit": 10, "offset": 0, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:34] [INFO] [状态码] 200
+[2026-04-21 16:03:34] [DEBUG] [响应体] {"message": "分页页码不能小于1", "status": 20001, "success": false, "traceId": "e9f2b825636a4f4bb24caf2e07822f3b.168.17767586142911813"}
+[2026-04-21 16:03:34] [INFO] 查询线索行程列表，limit=10, offset=99999, clueNo=无, clueStatus=None
+[2026-04-21 16:03:34] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:34] [INFO] [Body] {"limit": 10, "offset": 99999, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:34] [INFO] [状态码] 200
+[2026-04-21 16:03:34] [DEBUG] [响应体] {"data": {"list": [], "size": 0, "total": 0}, "status": 200, "success": true, "traceId": "dd12fa13de454a62b3a5895f1f5f3207.22587.17767586146350263"}
+[2026-04-21 16:03:34] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:34] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:34] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:34] [INFO] [状态码] 200
+[2026-04-21 16:03:34] [DEBUG] [响应体] {"traceId": "25f0ab1e606940ee8f1d4e0665397351.2871166.17767586150963135", "success": false, "message": "您的帐号登录会话已过期", "status": 10012}
+[2026-04-21 16:03:34] [INFO] 查询线索行程列表，limit=10, offset=1, clueNo=无, clueStatus=None
+[2026-04-21 16:03:34] [INFO] [POST] https://api-gw.huangbaoche.com/ydj-web/clue/v1.0/queryClueTripList
+[2026-04-21 16:03:34] [INFO] [Body] {"limit": 10, "offset": 1, "createByName": "", "clueNo": "", "clueStatus": null, "userId": "", "userName": "", "channelHover": false, "clueStatusHover": false, "handledResourceTypes": [], "clueName": "", "from": 1}
+[2026-04-21 16:03:35] [INFO] [状态码] 200
+[2026-04-21 16:03:35] [DEBUG] [响应体] {"message": "帐号未登录", "status": 10400}
+[2026-04-21 16:03:35] [INFO] ============================================================
+[2026-04-21 16:03:35] [INFO] 【全局后置】所有测试用例执行完毕
+[2026-04-21 16:03:35] [INFO] ============================================================
